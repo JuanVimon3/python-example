@@ -1,5 +1,5 @@
 
-def cambiar_divisas(pesos_colombianos, eleccion)
+def cambiar_divisAs(pesos_colombianos, eleccion)
 
 
     if eleccion== "US":
@@ -12,6 +12,6 @@ def cambiar_divisas(pesos_colombianos, eleccion)
         chilenos= round((pesos_colombianos/430.67),2)
         print(str(chilenos)  + " " + eleccion)
     else:
-        print("SELECCION INVÁLIDA")
+        print("SELECCION INVÁLIDA...")
 
-cambiar_divisas(2000000, "US")
+cambiar_divisAs(2000000, "US")
